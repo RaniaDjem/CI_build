@@ -1,4 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['functions', 'deploy', 'CIBUILD1', '--gen2', '--runtime', 'python310', '--trigger-http','--allow-unauthenticated','--source=.']
+  args: ['functions', 'deploy', 'CIBUILD1', '--gen2', '--runtime', 'python310', '--trigger-http','--allow-unauthenticated', '--region=us-central1','--source=.']
 
